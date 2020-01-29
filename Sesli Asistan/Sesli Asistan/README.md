@@ -25,7 +25,6 @@ Herkesin iyi kötü yorumunu beklemekteyim bu projeyi geliştirmem için sizinde
 * YoutubeSearch
 
 Bu modülleri kurduktan sonra sesli asistanınız bilgisayarınızda sorunsuz çalışacaktır.
-İzinsiz kullanılması kesinlikle yasaktır lütfen izin almadan kullanmayınız.
 Herhangi bir yerde sorun olursa takılırsanız seve seve yardımcı olabilirim.
 
 
