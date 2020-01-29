@@ -1,0 +1,2 @@
+gitname = ""
+gitpass = ""
