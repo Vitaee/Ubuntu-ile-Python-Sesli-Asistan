@@ -26,6 +26,7 @@ Herkesin iyi kötü yorumunu beklemekteyim bu projeyi geliştirmem için sizinde
 
 Bu modülleri kurduktan sonra sesli asistanınız bilgisayarınızda sorunsuz çalışacaktır.
 Herhangi bir yerde sorun olursa takılırsanız seve seve yardımcı olabilirim.
+pip install -r Desktop/requirements.txt  diyerekte gerekli modülleri tek bir komutla kurabilirsiniz..
 
 
 
