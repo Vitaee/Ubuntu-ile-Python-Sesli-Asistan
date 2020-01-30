@@ -1,3 +1,4 @@
 # Ubuntu-ile-Python-Sesli-Asistan
-+500 Satırlı bir asistan olup bir çok görevi/işlevi yerine getirebiliyor
+bir çok görevi/işlevi sesli olarak yerine getirin!
+
 
