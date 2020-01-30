@@ -1,0 +1,17 @@
+gTTS
+pydub
+SpeechRecognition
+time
+datetime
+wikipedia
+webbrowser
+selenium
+smtplib
+pyowm
+psutil
+fbchat
+getpass
+opencv-python
+googletrans
+google-search
+youtube-search
