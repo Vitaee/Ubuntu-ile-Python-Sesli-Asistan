@@ -149,7 +149,7 @@ hıztest = ["hız","hız testi","internet hızı","internet durumu","internet h�
 webcm = ["kamera","kamerayı aç","kamerayu açar mısın","aç kamera","beni göster","kendimi göster","yüzümü tanı","tanı yüzümü"]
 meraba = ["merhaba","selam","merhabalar","alo","selamlar","merhaba selam"]
 merbdonus = ["merhaba","selam","heyy","merhaba hoşgeldin"]
-email = ["e-posta gönder","posta gönder","mail gönder","email gönder","e-mail gönder","gmail gönder","g-mail gönder"]
+e_mail = ["e-posta gönder","posta gönder","mail gönder","email gönder","e-mail gönder","gmail gönder","g-mail gönder"]
 kapatma = ["sistemi kapat","uyu","kendini kapat","uyu uyu"]
 tarayıcı = ["tarayıcımı aç","web tarayıcımı aç","tarayıcı","tarayıcı aç","tarayıcımı aç","tarayıcıyı aç","tarayıcımı aç"]
 site = ["sitemi aç","web sitemi aç","favori sitemi aç","favori web sitesini aç","favori web sitemi aç","favori sayfamı aç","favori web sayfasını aç","favori web sayfamı aç"]
@@ -522,7 +522,7 @@ def asistan(command):
         translated = translator.translate(command,src = "tr", dest = "en")
         konusBenle("Söylediğiniz kelimenin ingilizcede karşığılı " + str(translated.text))
 
-    elif command in email:
+    elif command in e_mail:
         konusBenle("Alıcı kim?")
         alıcı = komutlar()
 
