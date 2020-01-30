@@ -41,13 +41,6 @@ from getpass import getpass #Bizden şifremimizi istiyor ve şifremimizi yazıp
 from pygame import mixer #Bu projemde belirtilen bir müziği oynatmak ve
 #durdurmak için kullanıyorum, https://www.pygame.org/docs/ref/mixer.html
 
-from facebkUserInfo import mailname, password1#facebook,github,instagram,twitter
-from gitUserınfo import gitname, gitpass #gibi hesaplara giriş yapıyoruz ve
-from instagramUserinfo import email, password#projenin bulunduğu dizine "".py
-from twitterUserInfo import usernm, password#adında bir python dosyası oluşturup
-#o dosyadan username ve password bilgilerini import ediyoruz.
-
-
 from selenium import webdriver
 #https://selenium-python.readthedocs.io/
 from selenium.webdriver.common.keys import Keys
@@ -151,7 +144,7 @@ insta = ["instagram","aç instagram","instagram aç","Instagram","İnstagram","�
 face = ["facebook","facebook aç","aç facebook","Facebook","face","feys"]
 facemesaj = ["mesaj gönder","facebook ile mesaj gönder","facebooktan mesaj gönder"]
 twitt = ["twitter","twitter aç","aç twitter","Twitter","twitt","twit","twitt","tvit","tvitt","tivit","tivitter","tivitt"]
-gthb = ["github","aç github","aç githab","aç githap","githap aç","github aç","gitab","gitap","githab","githap"]
+gthb = ["github","aç github","aç githab","aç githap","githap aç","github aç","gitab","gitap","githab","githap","git hap"]
 hıztest = ["hız","hız testi","internet hızı","internet durumu","internet hızı","internet hız testi","internetin hızı"]
 webcm = ["kamera","kamerayı aç","kamerayu açar mısın","aç kamera","beni göster","kendimi göster","yüzümü tanı","tanı yüzümü"]
 meraba = ["merhaba","selam","merhabalar","alo","selamlar","merhaba selam"]
@@ -414,6 +407,8 @@ def asistan(command):
         konusBenle("Nem oranı ise %" + str(h))
 
     elif command in face:
+        mailname = ""
+        password1 = ""
         class Facebook:
             def __init__(self,mailname,password1):
                 self.browser = webdriver.Chrome()
@@ -434,6 +429,8 @@ def asistan(command):
         facbk.singIn()
 
     elif command in gthb:
+        gitname = ""
+        gitpass = ""
         class Github:
             def __init__(self,gitname,gitpass):
                 self.browser = webdriver.Chrome()
@@ -471,7 +468,8 @@ def asistan(command):
 
 
     elif command in insta:
-
+        email = ""
+        password = ""
         class Instagram:
             def __init__(self,email,password):
                 self.browser = webdriver.Chrome()
@@ -492,6 +490,8 @@ def asistan(command):
         instgrm.signIn()
 
     elif command in twitt:
+        usernm = ""
+        password = ""
         class Twitter:
             def __init__(self, usernm, password):
                 self.browser = webdriver.Chrome()
